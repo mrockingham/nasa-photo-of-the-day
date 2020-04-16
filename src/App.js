@@ -5,12 +5,10 @@ import logo from 'C:/Users/User/desktop/lambdaflex/nasa-photo-of-the-day/src/Ico
 function App() {
   return (
     <div className="App">
-      <div className='Logo-Container'>
+      <div className='logo-container'>
         <img className='logo' src={logo} alt='Nasa logo' />
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <h1>Michael's Nasa Photos </h1>
+      <PhotoList />
      </div> 
     </div>
   );
